@@ -1,0 +1,65 @@
+@test-border: 1px solid black;
+@divider-color: #94CFFF;
+@white-color: #FFFFFF;
+@blue-color: #1B71F7;
+@black-color: #1B1D20;
+@grey-color: #E4F3FF;
+@header-height: 90px;
+@bounce: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+@desktop-x-large: 2559px;
+@desktop-large: 1919px;
+@desktop: 1439px;
+@tablet-large: 1023px;
+@tablet: 767px;
+@mobile: 439px;
+
+//mixins
+.text-props (@weight, @size, @height, @color) {
+  font-weight: @weight;
+  font-size: @size;
+  line-height: @height;
+  color: @color;
+}
+.flex-column(@align, @justify) {
+  display: flex;
+  flex-direction: column;
+  align-items: @align;
+  justify-content: @justify;
+}
+
+.flex-default(@align, @justify) {
+  display: flex;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.divider-bottom(@bottom, @left) {
+  &:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    left: @left;
+    bottom: @bottom;
+    background: @divider-color;
+  }
+}
+
+.icon(@width, @height) {
+  width: @width;
+  height: @height;
+}
+
+.circle(@width, @height, @background, @top, @right) {
+  //transition:  1s;
+  width: @width;
+  height: @height;
+  background: @background;
+  border-radius: 50px;
+  position: absolute;
+  top: @top;
+  right: @right;
+}
+
+
+

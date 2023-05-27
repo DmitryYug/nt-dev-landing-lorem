@@ -1,0 +1,325 @@
+@import "less/_variables";
+@import "less/elements";
+@import "less/blocks";
+
+body {
+  position: relative;
+  top: -90px;
+  overflow-x: hidden;
+  margin-bottom: -90px;
+  font-family: 'Roboto', sans-serif;
+
+  .is-hover {
+    .nav-center a:hover {
+      transition: color 0.3s;
+      color: @black-color;
+    }
+  }
+}
+
+.app {
+
+  &-content-container {
+    //max-width: 1680px;
+    //margin-left: auto;
+    //margin-right: auto;
+
+    @media (min-width: @desktop-large) {
+      padding: 120px 120px;
+    }
+    @media (max-width: @desktop-large) {
+      padding: 120px 40px;
+    }
+    @media (max-width: @tablet-large) {
+      padding: 80px 40px;
+    }
+
+  }
+
+  &.background-wrapper {
+    background: right no-repeat linear-gradient(270deg, #3E89FF 0%, #0060F5 100%);
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+
+    .main-background {
+      width: auto;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+
+      &.animate__animated {
+        @media (max-width: @tablet) {
+          transition: none;
+          animation-name: unset;
+        }
+      }
+
+      &.hovered {
+        margin-top: 150px;
+        height: 80%;
+        right: 0;
+        @media (max-width: @tablet) {
+          display: none;
+        }
+        @media (max-width: @desktop) {
+          scale: 0.7;
+        }
+      }
+
+      &.d-none {
+        display: none;
+      }
+    }
+  }
+}
+
+.d-none {
+  display: none;
+}
+
+.flex-default {
+  .flex-default(center, center);
+
+  &-start {
+    .flex-default(center, flex-start);
+  }
+}
+
+.flex-column {
+  .flex-column(center, center);
+}
+
+.flex-default-space-between {
+  .flex-default(center, space-between);
+  height: 100%;
+}
+
+header {
+  height: 90px;
+  position: sticky;
+  top: 0;
+  .divider-bottom(0, 0);
+  z-index: 9;
+
+  &.no-background {
+    background: linear-gradient(270deg, #3E89FF 0%, #0060F5 100%);
+  }
+
+
+  &.is-hover {
+    .main-logo {
+      width: 200px;
+      height: 40px;
+      img {
+        width: 100%;
+        height: auto;
+
+        &:nth-child(2) {
+          display: none
+        }
+      }
+      @media (max-width: @desktop-large) {
+        &:hover {
+          img:first-child {
+            display: none;
+          }
+          img:nth-child(2) {
+            display: block;
+          }
+        }
+        width: 150px;
+        height: 30px;
+      }
+    }
+  }
+
+  &.is-touch {
+    .main-logo {
+      width: 150px;
+      height: 30px;
+      img {
+        width: 100%;
+        height: auto;
+        &:nth-child(2) {
+          display: none
+        }
+      }
+    }
+
+  }
+
+
+  .app-content-container {
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+  }
+
+  .btn-white {
+    @media (max-width: @tablet) {
+      display: none;
+    }
+  }
+
+  img {
+    cursor: pointer;
+  }
+
+  a {
+    cursor: pointer;
+    .text-props(400, 20px, 26px, @white-color);
+    @media (max-width: @desktop-large) {
+      .text-props(400, 16px, 22px, @white-color);
+    }
+    @media (max-width: @tablet-large) {
+      .text-props(400, 12px, 14px, @white-color);
+    }
+  }
+
+  nav {
+    .flex-default(center, space-between);
+    flex: 0 1 70%;
+    h1 {
+      .text-props(400, 22px, 22px, @white-color);
+      cursor: pointer;
+    }
+  }
+
+  .nav-center {
+    .flex-default(center, flex-end);
+    flex: 1;
+    margin-right: 100px;
+    @media (max-width: @desktop) {
+      margin-right: 50px;
+    }
+    @media (max-width: @tablet-large) {
+      margin-right: 0;
+    }
+    @media (max-width: @tablet) {
+      display: none;
+    }
+
+
+    :nth-child(n) {
+      margin-left: 65px;
+      @media (max-width: @desktop) {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+footer {
+  .background-wrapper {
+    background: @black-color;
+  }
+
+  .app-content-container {
+    .flex-column(center, center);
+    padding: 50px 40px;
+  }
+
+  .top-container {
+    .flex-default(flex-start, space-between);
+    width: 100%;
+    margin-bottom: 75px;
+    @media (max-width: @tablet) {
+      .flex-column(flex-start, center);
+      margin-bottom: 35px;
+      gap: 20px;
+    }
+
+    :nth-child(n) {
+      flex: 0 1 33%;
+      @media (max-width: @desktop) {
+        flex: 0 1 33%;
+      }
+    }
+
+    p {
+      .text-props(400, 20px, 26px, @white-color);
+      @media (max-width: @desktop-large) {
+        .text-props(400, 16px, 22px, @white-color);
+      }
+    }
+
+    .main-logo {
+      cursor: pointer;
+      height: 30px;
+
+      img {
+        width: 150px;
+        height: auto;
+      }
+    }
+    h2 {
+      .text-props(400, 18px, 22px, @white-color);
+      cursor: pointer;
+    }
+  }
+
+  .bottom-container {
+    width: 100%;
+    .flex-default(center, flex-end);
+
+    @media (max-width: @tablet) {
+      .flex-column(flex-start, center);
+      margin-bottom: 0;
+      gap: 35px;
+    }
+
+    .empty {
+      flex: 0 1 33%;
+    }
+
+    .nav {
+      flex: 1 1 33%;
+      .flex-default(center, flex-start);
+
+      a {
+        .text-props(400, 14px, 16px, @white-color);
+        margin-right: 15px;
+        cursor: pointer;
+      }
+
+      @media (max-width: @tablet-large) {
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+    }
+
+    .disclaimer {
+      .text-props(400, 14px, 16px, @white-color);
+      opacity: 0.5;
+      flex: 0 1 33%;
+
+      @media (max-width: @desktop) {
+        flex: 1 1 33%;
+      }
+    }
+  }
+
+  .phone-block {
+    .flex-column(flex-start, center);
+
+    .number {
+      .text-props(400, 32px, 40px, @white-color);
+      @media (max-width: @desktop-large) {
+        .text-props(400, 24px, 30px, @white-color);
+      }
+      @media (max-width: @tablet-large) {
+        .text-props(400, 20px, 23px, @white-color);
+      }
+    }
+
+    .e-mail {
+      .text-props(400, 16px, 19px, @white-color);
+      @media (max-width: @desktop-large) {
+        .text-props(400, 14px, 17px, @white-color);
+      }
+    }
+  }
+}
+
