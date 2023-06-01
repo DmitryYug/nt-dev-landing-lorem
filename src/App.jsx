@@ -13,6 +13,8 @@ import {ContactForm} from "./components/blocks/ContactForm";
 import './App.css';
 import './less/initial-styles/nullstyle.css'
 import './less/initial-styles/normalize.css'
+import {Route, Routes} from "react-router-dom";
+import {CasesPage} from "./components/blocks/CasesPage";
 
 function App() {
 
@@ -118,92 +120,97 @@ function App() {
     }, [])
 
     return (
-        <div className={deviceTypeClassName}>
-            <header className={headerClass + deviceTypeClassName}>
-                <NtHeader/>
-            </header>
-            <div className="app">
-                <div className='app background-wrapper'>
-                    {
-                        imageLoadingState.mainBackground
-                            ? <img src="/images/start-page/main-background.png"
-                                   alt="mb"
-                                   ref={mainBackgroundRef}
-                                   className={appearAnimationClass}
-                            />
-                            : <img src="/images/start-page/main-background-blur.png"
-                                   alt="mbb"
-                                   ref={mainBackgroundRef}
-                                   className={appearAnimationClass}
-                                   onLoad={() => loadImageHandler('mainBackground')}
-                            />
-                    }
-                    <div ref={hoveredBackgroundsRef}>
+        <>
+            <Routes>
+                <Route path={'/:projectId'} element={<CasesPage/>}></Route>
+            </Routes>
+            <div className={deviceTypeClassName}>
+                <header className={headerClass + deviceTypeClassName}>
+                    <NtHeader/>
+                </header>
+                <div className="app">
+                    <div className='app background-wrapper'>
                         {
-                            imageLoadingState.hoveredBackground1
-                                ? <img src="/images/start-page/hover-background-1.png"
-                                       alt="hover-background-1"
-                                       className={displayNone}
+                            imageLoadingState.mainBackground
+                                ? <img src="/images/start-page/main-background.png"
+                                       alt="mb"
+                                       ref={mainBackgroundRef}
+                                       className={appearAnimationClass}
                                 />
-                                : <img src="/images/start-page/hover-background-1-blur.png"
-                                       alt="hover-background-1"
-                                       className={displayNone}
-                                       onLoad={() => loadImageHandler('hoveredBackground1')}
+                                : <img src="/images/start-page/main-background-blur.png"
+                                       alt="mbb"
+                                       ref={mainBackgroundRef}
+                                       className={appearAnimationClass}
+                                       onLoad={() => loadImageHandler('mainBackground')}
                                 />
                         }
-                        {
-                            imageLoadingState.hoveredBackground2
-                                ? <img src="/images/start-page/hover-background-2.png"
-                                       alt="hover-background-2"
-                                       className={displayNone}
-                                />
-                                : <img src="/images/start-page/hover-background-2-blur.png"
-                                       alt="hover-background-2"
-                                       className={displayNone}
-                                       onLoad={() => loadImageHandler('hoveredBackground2')}
-                                />
-                        }
-                        {
-                            imageLoadingState.hoveredBackground3
-                                ? <img src="/images/start-page/hover-background-3.png"
-                                       alt="hover-background-3"
-                                       className={displayNone}
-                                />
-                                : <img src="/images/start-page/hover-background-3-blur.png"
-                                       alt="hover-background-3"
-                                       className={displayNone}
-                                       onLoad={() => loadImageHandler('hoveredBackground3')}
-                                />
-                        }
+                        <div ref={hoveredBackgroundsRef}>
+                            {
+                                imageLoadingState.hoveredBackground1
+                                    ? <img src="/images/start-page/hover-background-1.png"
+                                           alt="hover-background-1"
+                                           className={displayNone}
+                                    />
+                                    : <img src="/images/start-page/hover-background-1-blur.png"
+                                           alt="hover-background-1"
+                                           className={displayNone}
+                                           onLoad={() => loadImageHandler('hoveredBackground1')}
+                                    />
+                            }
+                            {
+                                imageLoadingState.hoveredBackground2
+                                    ? <img src="/images/start-page/hover-background-2.png"
+                                           alt="hover-background-2"
+                                           className={displayNone}
+                                    />
+                                    : <img src="/images/start-page/hover-background-2-blur.png"
+                                           alt="hover-background-2"
+                                           className={displayNone}
+                                           onLoad={() => loadImageHandler('hoveredBackground2')}
+                                    />
+                            }
+                            {
+                                imageLoadingState.hoveredBackground3
+                                    ? <img src="/images/start-page/hover-background-3.png"
+                                           alt="hover-background-3"
+                                           className={displayNone}
+                                    />
+                                    : <img src="/images/start-page/hover-background-3-blur.png"
+                                           alt="hover-background-3"
+                                           className={displayNone}
+                                           onLoad={() => loadImageHandler('hoveredBackground3')}
+                                    />
+                            }
+                        </div>
+                        <StartPage setHoveredIconHandler={setHoveredIconHandler}
+                                   onMouseLeaveHandler={onMouseLeaveHandler}
+                                   deviceType={deviceTypeClassName}
+                        />
                     </div>
-                    <StartPage setHoveredIconHandler={setHoveredIconHandler}
-                               onMouseLeaveHandler={onMouseLeaveHandler}
-                               deviceType={deviceTypeClassName}
-                    />
-                </div>
-                <main>
-                    <div id='aboutBlock' className={`aboutBlock ${deviceTypeClassName}`}>
-                        <About deviceType={deviceTypeClassName}/>
-                    </div>
-                    <div id="devDescription" className='devDescription'>
-                        <DevDescription/>
-                    </div>
-                    <div id="portfolio" className='portfolio'>
-                        <Portfolio/>
-                    </div>
-                    <div id="workFlow" className='workFlow'>
-                        <WorkFlow/>
-                    </div>
-                    <div id="contactForm" className='contactForm'>
-                        <ContactForm/>
-                    </div>
+                    <main>
+                        <div id='aboutBlock' className={`aboutBlock ${deviceTypeClassName}`}>
+                            <About deviceType={deviceTypeClassName}/>
+                        </div>
+                        <div id="devDescription" className='devDescription'>
+                            <DevDescription/>
+                        </div>
+                        <div id="portfolio" className='portfolio'>
+                            <Portfolio/>
+                        </div>
+                        <div id="workFlow" className='workFlow'>
+                            <WorkFlow/>
+                        </div>
+                        <div id="contactForm" className='contactForm'>
+                            <ContactForm/>
+                        </div>
 
-                </main>
-                <footer>
-                    <NtFooter/>
-                </footer>
+                    </main>
+                    <footer>
+                        <NtFooter/>
+                    </footer>
+                </div>
             </div>
-        </div>
+        </>
     );
 }
 
