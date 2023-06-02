@@ -1458,7 +1458,7 @@
 }
 .dev-description-block.background-wrapper .image-position-wrapper {
   position: relative;
-  background-image: url("/src/images/dev-description-block/background-blur.png");
+  background-image: url("./images/dev-description-block/background-blur.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left 15% bottom -60px;
@@ -1466,7 +1466,7 @@
 .dev-description-block.background-wrapper .image-position-wrapper:after {
   content: "";
   position: absolute;
-  background-image: url('/src/images/dev-description-block/background.png');
+  background-image: url('./images/dev-description-block/background.png');
   background-position: left 15% bottom -60px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1620,7 +1620,7 @@
 }
 .contact-form-block .background-wrapper .image-position-wrapper {
   position: relative;
-  background-image: url("/src/images/contact-form/background-blur.png");
+  background-image: url("./images/contact-form/background-blur.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left 100% bottom 0;
@@ -1628,7 +1628,7 @@
 .contact-form-block .background-wrapper .image-position-wrapper:after {
   content: "";
   position: absolute;
-  background-image: url('/src/images/contact-form/background.png');
+  background-image: url('./images/contact-form/background.png');
   background-position: left 100% bottom 0;
   background-size: contain;
   background-repeat: no-repeat;
