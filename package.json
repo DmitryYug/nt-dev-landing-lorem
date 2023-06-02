@@ -1,5 +1,6 @@
 {
   "name": "nt-dev-landing",
+  "homepage": "https://dmitryyug.github.io/nt-dev-landing-lorem/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
