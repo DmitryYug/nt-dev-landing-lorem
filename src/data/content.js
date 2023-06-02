@@ -1,16 +1,16 @@
 export const startPageIcons = [
     {
-        path: ['nt-dev-landing-lorem/images/start-page/circle.png', 'nt-dev-landing-lorem/images/start-page/ellipse.png'],
+        path: ['/images/start-page/circle.png', '/images/start-page/ellipse.png'],
         text: 'Lorem ipsum dolor sit amet',
         iconId: 'hover-icon-first',
     },
     {
-        path: ['nt-dev-landing-lorem/images/start-page/ellipse-s.png', 'nt-dev-landing-lorem/images/start-page/circle.png', 'nt-dev-landing-lorem/images/start-page/ellipse.png'],
+        path: ['/images/start-page/ellipse-s.png', '/images/start-page/circle.png', '/images/start-page/ellipse.png'],
         text: 'Lorem ipsum dolor',
         iconId: 'hover-icon-second',
     },
     {
-        path: ['nt-dev-landing-lorem/images/start-page/rectangle.png', 'nt-dev-landing-lorem/images/start-page/circle.png'],
+        path: ['/images/start-page/rectangle.png', '/images/start-page/circle.png'],
         text: 'Lorem ipsum dolor sit amet, consectetur.',
         iconId: 'hover-icon-third',
     },
@@ -19,22 +19,22 @@ export const startPageIcons = [
 
 export const aboutBlockCards = [
     {
-        imagePath: [`nt-dev-landing-lorem/images/about-block/cards/round.png`, `nt-dev-landing-lorem/images/about-block/cards/straight.png`],
+        imagePath: [`/images/about-block/cards/round.png`, `/images/about-block/cards/straight.png`],
         title: 'Consectetur',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur ducimus qui quibusdam sapiente ut.',
         cardId: 'import-card'
     },
     {
-        imagePath: [`nt-dev-landing-lorem/images/about-block/cards/digital-card/img.png`, `nt-dev-landing-lorem/images/about-block/cards/digital-card/img.png`, `nt-dev-landing-lorem/images/about-block/cards/digital-card/img.png`, `nt-dev-landing-lorem/images/about-block/cards/digital-card/img.png`],
+        imagePath: [`/images/about-block/cards/digital-card/img.png`, `/images/about-block/cards/digital-card/img.png`, `/images/about-block/cards/digital-card/img.png`, `/images/about-block/cards/digital-card/img.png`],
         title: 'Ipsum dolor',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda, atque dicta, dolor facilis in laborum maiores, quia quibusdam quis ratione tempore temporibus velit veniam voluptate! Commodi cumque debitis dolorem!',
         cardId: 'digital-card'
     },
     {
-        imagePath: [`nt-dev-landing-lorem/images/about-block/cards/straight.png`, `nt-dev-landing-lorem/images/about-block/cards/round.png`, `nt-dev-landing-lorem/images/about-block/cards/straight.png`,
-            `nt-dev-landing-lorem/images/about-block/cards/round.png`, `nt-dev-landing-lorem/images/about-block/cards/straight.png`, `nt-dev-landing-lorem/images/about-block/cards/straight.png`, `nt-dev-landing-lorem/images/about-block/cards/round.png`, `nt-dev-landing-lorem/images/about-block/cards/straight.png`, `nt-dev-landing-lorem/images/about-block/cards/round.png`,
-            `nt-dev-landing-lorem/images/about-block/cards/straight.png`, `nt-dev-landing-lorem/images/about-block/cards/round.png`, `nt-dev-landing-lorem/images/about-block/cards/straight.png`, `nt-dev-landing-lorem/images/about-block/cards/round.png`, `nt-dev-landing-lorem/images/about-block/cards/round.png`, `nt-dev-landing-lorem/images/about-block/cards/round.png`,
-            `nt-dev-landing-lorem/images/about-block/cards/round.png`],
+        imagePath: [`/images/about-block/cards/straight.png`, `/images/about-block/cards/round.png`, `/images/about-block/cards/straight.png`,
+            `/images/about-block/cards/round.png`, `/images/about-block/cards/straight.png`, `/images/about-block/cards/straight.png`, `/images/about-block/cards/round.png`, `/images/about-block/cards/straight.png`, `/images/about-block/cards/round.png`,
+            `/images/about-block/cards/straight.png`, `/images/about-block/cards/round.png`, `/images/about-block/cards/straight.png`, `/images/about-block/cards/round.png`, `/images/about-block/cards/round.png`, `/images/about-block/cards/round.png`,
+            `/images/about-block/cards/round.png`],
         title: 'Adipisci assumenda',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut ducimus labore libero maxime neque non omnis optio ut velit.',
         cardId: 'develop-card'
@@ -47,19 +47,19 @@ export const workFlowCards = [
         result: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut ducimus labore libero maxime ',
         descriptionList: [
             {
-                icon: 'nt-dev-landing-lorem/images/workflow-block/rounded-center.png',
+                icon: '/images/workflow-block/rounded-center.png',
                 text: 'Lorem ipsum dolor sit amet.'
             },
             {
-                icon: 'nt-dev-landing-lorem/images/workflow-block/left.png',
+                icon: '/images/workflow-block/left.png',
                 text: 'Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.'
             },
             {
-                icon: 'nt-dev-landing-lorem/images/workflow-block/rounded-left.png',
+                icon: '/images/workflow-block/rounded-left.png',
                 text: 'Lorem ipsum dolor sit amet.'
             },
             {
-                icon: 'nt-dev-landing-lorem/images/workflow-block/ellipse-left.png',
+                icon: '/images/workflow-block/ellipse-left.png',
                 text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, nam!'
             }
         ]
@@ -69,23 +69,23 @@ export const workFlowCards = [
         result: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem hic inventore iure odit perferendis voluptatum!',
         descriptionList: [
             {
-                icon: 'nt-dev-landing-lorem/images/workflow-block/rounded-center.png',
+                icon: '/images/workflow-block/rounded-center.png',
                 text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
             },
-            {icon: 'nt-dev-landing-lorem/images/workflow-block/left.png', text: 'Lorem ipsum dolor sit amet.'},
-            {icon: 'nt-dev-landing-lorem/images/workflow-block/rounded-left.png', text: 'Lorem ipsum dolor sit amet.'},
+            {icon: '/images/workflow-block/left.png', text: 'Lorem ipsum dolor sit amet.'},
+            {icon: '/images/workflow-block/rounded-left.png', text: 'Lorem ipsum dolor sit amet.'},
         ]
     },
     {
         title: 'Lorem ipsum dolor sit amet.',
         result: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam assumenda consectetur distinctio ducimus, esse eveniet excepturi facere id libero modi quae quia quisquam, quos saepe sequi, suscipit tenetur voluptatum.',
         descriptionList: [
-            {icon: 'nt-dev-landing-lorem/images/workflow-block/rounded-center.png', text: 'Tenetur voluptatum'},
-            {icon: 'nt-dev-landing-lorem/images/workflow-block/left.png', text: 'Lorem ipsum dolor'},
-            {icon: 'nt-dev-landing-lorem/images/workflow-block/rounded-left.png', text: 'Lorem ipsum dolor sit amet, consectetur adipisicing.'},
-            {icon: 'nt-dev-landing-lorem/images/workflow-block/ellipse-left.png', text: 'Lorem ipsum dolor '},
+            {icon: '/images/workflow-block/rounded-center.png', text: 'Tenetur voluptatum'},
+            {icon: '/images/workflow-block/left.png', text: 'Lorem ipsum dolor'},
+            {icon: '/images/workflow-block/rounded-left.png', text: 'Lorem ipsum dolor sit amet, consectetur adipisicing.'},
+            {icon: '/images/workflow-block/ellipse-left.png', text: 'Lorem ipsum dolor '},
             {
-                icon: 'nt-dev-landing-lorem/images/workflow-block/rounded-rectangle-center.png',
+                icon: '/images/workflow-block/rounded-rectangle-center.png',
                 text: 'Lorem ipsum dolor sit amet'
             }
         ]
@@ -95,11 +95,11 @@ export const workFlowCards = [
         result: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         descriptionList: [
             {
-                icon: 'nt-dev-landing-lorem/images/workflow-block/rounded-center.png',
+                icon: '/images/workflow-block/rounded-center.png',
                 text: 'Amet aperiam assumenda consectetur distinctio ducimus, esse eveniet excepturi facere id libero modi quae quia.'
             },
             {
-                icon: 'nt-dev-landing-lorem/images/workflow-block/left.png',
+                icon: '/images/workflow-block/left.png',
                 text: 'Veniam voluptate! Commodi cumque debitis dolorem!'
             },
         ]
@@ -109,24 +109,24 @@ export const workFlowCards = [
         result: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
         descriptionList: [
             {
-                icon: 'nt-dev-landing-lorem/images/workflow-block/rounded-center.png',
+                icon: '/images/workflow-block/rounded-center.png',
                 text: 'Tempore temporibus velit veniam voluptate! Commodi cumque debitis dolorem!'
             },
-            {icon: 'nt-dev-landing-lorem/images/workflow-block/left.png', text: 'Veniam voluptate veniam voluptate'},
-            {icon: 'nt-dev-landing-lorem/images/workflow-block/rounded-left.png', text: 'Tenetur voluptatum veniam'},
+            {icon: '/images/workflow-block/left.png', text: 'Veniam voluptate veniam voluptate'},
+            {icon: '/images/workflow-block/rounded-left.png', text: 'Tenetur voluptatum veniam'},
         ]
     },
     {
         title: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
         result: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam assumenda consectetur distinctio ducimus, esse eveniet excepturi facere id libero modi quae quia quisquam, quos saepe sequi, suscipit tenetur voluptatum.',
         descriptionList: [
-            {icon: 'nt-dev-landing-lorem/images/workflow-block/rounded-center.png', text: 'Lorem ipsum dolor sit amet, consectetur adipisicing.'},
+            {icon: '/images/workflow-block/rounded-center.png', text: 'Lorem ipsum dolor sit amet, consectetur adipisicing.'},
             {
-                icon: 'nt-dev-landing-lorem/images/workflow-block/left.png',
+                icon: '/images/workflow-block/left.png',
                 text: 'Lorem ipsum dolor sit amet, consectetur adipisicing.'
             },
             {
-                icon: 'nt-dev-landing-lorem/images/workflow-block/rounded-left.png',
+                icon: '/images/workflow-block/rounded-left.png',
                 text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex optio reiciendis.'
             },
         ]
@@ -137,25 +137,25 @@ export const portfolioCards = [
         cardId: 'automation',
         title: ' Dolore ex optio reiciendis',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam assumenda consectetur distinctio ducimus, esse eveniet excepturi facere id libero modi quae quia quisquam, quos saepe sequi, suscipit tenetur voluptatum.',
-        backgroundIcons: [`nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/automation-card/circle.png`, `nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/automation-card/ellipse.png`],
+        backgroundIcons: [`/images/portfolio-block/cases-page/cards/automation-card/circle.png`, `/images/portfolio-block/cases-page/cards/automation-card/ellipse.png`],
     },
     {
         cardId: 'integration',
         title: 'Tenetur voluptatum',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex optio reiciendis.',
-        backgroundIcons: [`nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/integration-card/circle.png`, `nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/integration-card/rectangle.png`],
+        backgroundIcons: [`/images/portfolio-block/cases-page/cards/integration-card/circle.png`, `/images/portfolio-block/cases-page/cards/integration-card/rectangle.png`],
     },
     {
         cardId: 'pre-project',
         title: 'Veniam voluptate',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda, atque dicta, dolor facilis in laborum maiores, quia quibusdam quis ratione tempore temporibus velit veniam voluptate!',
-        backgroundIcons: [`nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/pre-project-card/circle.png`, `nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/pre-project-card/rectangle.png`],
+        backgroundIcons: [`/images/portfolio-block/cases-page/cards/pre-project-card/circle.png`, `/images/portfolio-block/cases-page/cards/pre-project-card/rectangle.png`],
     },
     {
         cardId: 'online-services',
         title: 'Commodi cumque',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda, atque dicta, dolor facilis in laborum maiores, quia quibusdam quis ratione tempore temporibus ',
-        backgroundIcons: [`nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/online-services-card/circle.png`, `nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/online-services-card/rectangle.png`],
+        backgroundIcons: [`/images/portfolio-block/cases-page/cards/online-services-card/circle.png`, `/images/portfolio-block/cases-page/cards/online-services-card/rectangle.png`],
     }
 
 ]
@@ -177,8 +177,8 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: 'nt-dev-landing-lorem/images/case-modal/schemes/automation/1.png',
-            parentBackground: [`nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/automation-card/background-1/ellipse.png`, `nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/automation-card/background-1/rectangle.png`]
+            scheme: '/images/case-modal/schemes/automation/1.png',
+            parentBackground: [`/images/portfolio-block/cases-page/cards/automation-card/background-1/ellipse.png`, `/images/portfolio-block/cases-page/cards/automation-card/background-1/rectangle.png`]
         },
         {
             id: 'card2',
@@ -195,7 +195,7 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: 'nt-dev-landing-lorem/images/case-modal/schemes/automation/2.png',
+            scheme: '/images/case-modal/schemes/automation/2.png',
             parentBackground: []
         },
         {
@@ -213,7 +213,7 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: 'nt-dev-landing-lorem/images/case-modal/schemes/automation/3.png',
+            scheme: '/images/case-modal/schemes/automation/3.png',
             parentBackground: []
         },
         {
@@ -231,7 +231,7 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: 'nt-dev-landing-lorem/images/case-modal/schemes/automation/4.png',
+            scheme: '/images/case-modal/schemes/automation/4.png',
             parentBackground: []
         },
         {
@@ -249,7 +249,7 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: 'nt-dev-landing-lorem/images/case-modal/schemes/automation/4.png',
+            scheme: '/images/case-modal/schemes/automation/4.png',
             parentBackground: []
         },
         {
@@ -267,7 +267,7 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: 'nt-dev-landing-lorem/images/case-modal/schemes/automation/6.png',
+            scheme: '/images/case-modal/schemes/automation/6.png',
             parentBackground: []
         },
         {
@@ -285,8 +285,8 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: 'nt-dev-landing-lorem/images/case-modal/schemes/automation/7.png',
-            parentBackground: [`nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/automation-card/background-7/ellipse.png`, `nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/automation-card/background-7/rectangle.png`, `nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/automation-card/background-7/circle.png`]
+            scheme: '/images/case-modal/schemes/automation/7.png',
+            parentBackground: [`/images/portfolio-block/cases-page/cards/automation-card/background-7/ellipse.png`, `/images/portfolio-block/cases-page/cards/automation-card/background-7/rectangle.png`, `/images/portfolio-block/cases-page/cards/automation-card/background-7/circle.png`]
         },
         {
             id: 'card8',
@@ -303,7 +303,7 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: 'nt-dev-landing-lorem/images/case-modal/schemes/automation/8.png',
+            scheme: '/images/case-modal/schemes/automation/8.png',
             parentBackground: []
         },
         {
@@ -322,7 +322,7 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: 'nt-dev-landing-lorem/images/case-modal/schemes/automation/9.png',
+            scheme: '/images/case-modal/schemes/automation/9.png',
             parentBackground: []
         },
         {
@@ -339,7 +339,7 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: 'nt-dev-landing-lorem/images/case-modal/schemes/automation/10.png',
+            scheme: '/images/case-modal/schemes/automation/10.png',
             parentBackground: []
         },
         {
@@ -357,8 +357,8 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: 'nt-dev-landing-lorem/images/case-modal/schemes/automation/11.png',
-            parentBackground: [`nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/automation-card/background-11/ellipse.png`, `nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/automation-card/background-11/rectangle.png`, `nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/automation-card/background-11/circle.png`]
+            scheme: '/images/case-modal/schemes/automation/11.png',
+            parentBackground: [`/images/portfolio-block/cases-page/cards/automation-card/background-11/ellipse.png`, `/images/portfolio-block/cases-page/cards/automation-card/background-11/rectangle.png`, `/images/portfolio-block/cases-page/cards/automation-card/background-11/circle.png`]
         }
     ],
     integration: [
@@ -372,8 +372,8 @@ export const profileCases = {
             caseDescription:
             "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea enim reprehenderit. Animi architecto aspernatur beatae debitis, deserunt eius ex expedita, illo iste iure nihil pariatur repellendus veniam. Enim id itaque maxime perferendis quidem rem!",
             features: [],
-            scheme: 'nt-dev-landing-lorem/images/case-modal/schemes/integration/1.png',
-            parentBackground: [`nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/automation-card/background-1/ellipse.png`, `nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/automation-card/background-1/rectangle.png`]
+            scheme: '/images/case-modal/schemes/integration/1.png',
+            parentBackground: [`/images/portfolio-block/cases-page/cards/automation-card/background-1/ellipse.png`, `/images/portfolio-block/cases-page/cards/automation-card/background-1/rectangle.png`]
         }
     ],
     'pre-project': [
@@ -393,7 +393,7 @@ export const profileCases = {
                 'Consectetur adipisicing elit. Nam, optio'
             ],
             scheme: '',
-            parentBackground: [`nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/automation-card/background-1/ellipse.png`, `nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/automation-card/background-1/rectangle.png`]
+            parentBackground: [`/images/portfolio-block/cases-page/cards/automation-card/background-1/ellipse.png`, `/images/portfolio-block/cases-page/cards/automation-card/background-1/rectangle.png`]
         }
     ],
     'online-services': [
@@ -406,8 +406,8 @@ export const profileCases = {
             status: ['Lorem ipsum dolor sit amet.', 'Lorem ipsum dolor sit amet, consectetur'],
             caseDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus illo laborum laudantium recusandae repudiandae? Accusamus inventore mollitia perferendis reprehenderit.',
             features: ['Lorem ipsum dolor sit amet', 'Eaque, tempora.', 'Enim id itaque maxime perferendis quidem rem', 'Quidem rem'],
-            scheme: 'nt-dev-landing-lorem/images/case-modal/schemes/online-services/1.png',
-            parentBackground: [`nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/automation-card/background-1/ellipse.png`, `nt-dev-landing-lorem/images/portfolio-block/cases-page/cards/automation-card/background-1/rectangle.png`]
+            scheme: '/images/case-modal/schemes/online-services/1.png',
+            parentBackground: [`/images/portfolio-block/cases-page/cards/automation-card/background-1/ellipse.png`, `/images/portfolio-block/cases-page/cards/automation-card/background-1/rectangle.png`]
         }
     ]
 }

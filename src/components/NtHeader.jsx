@@ -15,10 +15,10 @@ export const NtHeader = () => {
                 </h1>
 
                 {/*<div onClick={scrollToTop} className='main-logo'>*/}
-                    {/*<img src="nt-dev-landing-lorem/images/main-logo.png"*/}
+                    {/*<img src="/images/main-logo.png"*/}
                     {/*     alt="main-logo"*/}
                     {/*/>*/}
-                    {/*<img src="nt-dev-landing-lorem/images/main-logo-hovered.png"*/}
+                    {/*<img src="/images/main-logo-hovered.png"*/}
                     {/*     alt="main-logo-hovered"*/}
                     {/*/>*/}
                 {/*</div>*/}

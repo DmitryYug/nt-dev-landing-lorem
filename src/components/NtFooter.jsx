@@ -13,7 +13,7 @@ export const NtFooter = () => {
             <div className='app-content-container'>
                 <div className='top-container'>
                     {/*<div onClick={scrollToTop} className='main-logo'>*/}
-                    {/*    <img src="nt-dev-landing-lorem/images/main-logo.png"*/}
+                    {/*    <img src="/images/main-logo.png"*/}
                     {/*         alt="main-logo"*/}
                     {/*    />*/}
                     {/*</div>*/}

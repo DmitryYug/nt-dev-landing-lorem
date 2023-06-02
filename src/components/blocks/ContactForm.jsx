@@ -77,14 +77,14 @@ export const ContactForm = () => {
 
     const successSendMessage = () => (
         <div className={`sending-status animate__animated animate__zoomIn animate__faster ${sendingStatus}`}>
-            <img src="nt-dev-landing-lorem/images/contact-form/success-sending.png" alt="success-sending"/>
+            <img src="/src/images/contact-form/success-sending.png" alt="success-sending"/>
             <span>Lorem ipsum dolor sit amet.</span>
         </div>
     )
     const errorSendMessage = () => (
         <div>
             <div className={`sending-status animate__animated animate__zoomIn animate__faster ${sendingStatus}`}>
-                <img src="nt-dev-landing-lorem/images/contact-form/error-sending.png" alt="error-sending"/>
+                <img src="/src/images/contact-form/error-sending.png" alt="error-sending"/>
                 <span>Error</span>
             </div>
         </div>
@@ -232,7 +232,7 @@ export const ContactForm = () => {
                             </label>
                             {/*<label htmlFor="upload">*/}
                             {/*    <input type="file" id="upload" name="file" multiple/>*/}
-                            {/*    <img src='nt-dev-landing-lorem/images/contact-form/upload.png'/>*/}
+                            {/*    <img src='/images/contact-form/upload.png'/>*/}
                             {/*    <span className='upload-span'>Выбрать файл</span>*/}
                             {/*</label>*/}
                             <div className='d-flex'>
