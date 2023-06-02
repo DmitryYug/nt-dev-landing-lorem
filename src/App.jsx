@@ -132,12 +132,12 @@ function App() {
                     <div className='app background-wrapper'>
                         {
                             imageLoadingState.mainBackground
-                                ? <img src="/images/start-page/main-background.png"
+                                ? <img src="nt-dev-landing-lorem/images/start-page/main-background.png"
                                        alt="mb"
                                        ref={mainBackgroundRef}
                                        className={appearAnimationClass}
                                 />
-                                : <img src="/images/start-page/main-background-blur.png"
+                                : <img src="nt-dev-landing-lorem/images/start-page/main-background-blur.png"
                                        alt="mbb"
                                        ref={mainBackgroundRef}
                                        className={appearAnimationClass}
@@ -147,11 +147,11 @@ function App() {
                         <div ref={hoveredBackgroundsRef}>
                             {
                                 imageLoadingState.hoveredBackground1
-                                    ? <img src="/images/start-page/hover-background-1.png"
+                                    ? <img src="nt-dev-landing-lorem/images/start-page/hover-background-1.png"
                                            alt="hover-background-1"
                                            className={displayNone}
                                     />
-                                    : <img src="/images/start-page/hover-background-1-blur.png"
+                                    : <img src="nt-dev-landing-lorem/images/start-page/hover-background-1-blur.png"
                                            alt="hover-background-1"
                                            className={displayNone}
                                            onLoad={() => loadImageHandler('hoveredBackground1')}
@@ -159,11 +159,11 @@ function App() {
                             }
                             {
                                 imageLoadingState.hoveredBackground2
-                                    ? <img src="/images/start-page/hover-background-2.png"
+                                    ? <img src="nt-dev-landing-lorem/images/start-page/hover-background-2.png"
                                            alt="hover-background-2"
                                            className={displayNone}
                                     />
-                                    : <img src="/images/start-page/hover-background-2-blur.png"
+                                    : <img src="nt-dev-landing-lorem/images/start-page/hover-background-2-blur.png"
                                            alt="hover-background-2"
                                            className={displayNone}
                                            onLoad={() => loadImageHandler('hoveredBackground2')}
@@ -171,11 +171,11 @@ function App() {
                             }
                             {
                                 imageLoadingState.hoveredBackground3
-                                    ? <img src="/images/start-page/hover-background-3.png"
+                                    ? <img src="nt-dev-landing-lorem/images/start-page/hover-background-3.png"
                                            alt="hover-background-3"
                                            className={displayNone}
                                     />
-                                    : <img src="/images/start-page/hover-background-3-blur.png"
+                                    : <img src="nt-dev-landing-lorem/images/start-page/hover-background-3-blur.png"
                                            alt="hover-background-3"
                                            className={displayNone}
                                            onLoad={() => loadImageHandler('hoveredBackground3')}

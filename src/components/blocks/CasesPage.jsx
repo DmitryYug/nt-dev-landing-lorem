@@ -48,7 +48,7 @@ export const CasesPage = () => {
             <div className='cases-header'>
                 <div className='app-content-container'>
                     <NavLink to='/'>
-                        <img src="/images/portfolio-block/cases-page/arrow-back-white.png"
+                        <img src="nt-dev-landing-lorem/images/portfolio-block/cases-page/arrow-back-white.png"
                              alt="arrow-back-white"
                         />
                     </NavLink>
