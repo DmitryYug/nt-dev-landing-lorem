@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "nt-dev-landing-lorem/static/css/main.8d348e8d.css",
-    "main.js": "nt-dev-landing-lorem/static/js/main.c4587a90.js",
-    "static/media/background.png": "nt-dev-landing-lorem/static/media/background.f8af88043155a6a1f387.png",
-    "static/media/background-blur.png": "nt-dev-landing-lorem/static/media/background-blur.812a79d37b535e4d5aee.png",
-    "index.html": "nt-dev-landing-lorem/index.html",
-    "main.8d348e8d.css.map": "nt-dev-landing-lorem/static/css/main.8d348e8d.css.map",
-    "main.c4587a90.js.map": "nt-dev-landing-lorem/static/js/main.c4587a90.js.map"
+    "main.css": "/nt-dev-landing-lorem/static/css/main.f053089a.css",
+    "main.js": "/nt-dev-landing-lorem/static/js/main.c4587a90.js",
+    "static/media/background.png": "/nt-dev-landing-lorem/static/media/background.f8af88043155a6a1f387.png",
+    "static/media/background-blur.png": "/nt-dev-landing-lorem/static/media/background-blur.812a79d37b535e4d5aee.png",
+    "index.html": "/nt-dev-landing-lorem/index.html",
+    "main.f053089a.css.map": "/nt-dev-landing-lorem/static/css/main.f053089a.css.map",
+    "main.c4587a90.js.map": "/nt-dev-landing-lorem/static/js/main.c4587a90.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d348e8d.css",
+    "static/css/main.f053089a.css",
     "static/js/main.c4587a90.js"
   ]
 }
