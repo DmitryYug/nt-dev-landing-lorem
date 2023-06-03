@@ -5,8 +5,8 @@ import App from "../App";
 export function AppRouter() {
     return (
         <Routes>
+            <Route path={'/nt-dev-landing-lorem'} element={<App/>}/>
             <Route path={'/:projectId'} element={<CasesPage/>}/>
-            <Route path={'/'} element={<App/>}/>
         </Routes>
         // <Routes>
         //     {Object.values(routes).map(({path, element}) => (
