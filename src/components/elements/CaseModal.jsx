@@ -1,4 +1,6 @@
 import React, {useEffect, useState} from "react";
+import arrowBackBlue from '../../images/case-modal/arrow-back-blue.png'
+
 
 export const CaseModal = ({hideModal, show, currentCardProps}) => {
 
@@ -28,7 +30,7 @@ export const CaseModal = ({hideModal, show, currentCardProps}) => {
     const statusRender = currentCardProps.status?.map((status, ind) => {
         return (
             <h4 key={ind + status} className="title">
-                <img src="/images/case-modal/icon-1.png" alt="icon-1"/>
+                <img src="/src/images/case-modal/icon-1.png" alt="icon-1"/>
                 {status}
             </h4>
         )
@@ -59,7 +61,9 @@ export const CaseModal = ({hideModal, show, currentCardProps}) => {
         <div className={`case-modal ${displayClass}`}>
             <div className="header">
                 <button onClick={hideModalHandler}>
-                    <img src="/images/case-modal/arrow-back-blue.png" alt="arrow-back-blue"/>
+                    <img src={arrowBackBlue}
+                         alt="arrow-back-blue"
+                    />
                 </button>
             </div>
             <div className="title-block">

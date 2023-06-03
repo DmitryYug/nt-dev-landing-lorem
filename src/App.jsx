@@ -14,6 +14,15 @@ import './App.css';
 import './less/initial-styles/nullstyle.css'
 import './less/initial-styles/normalize.css'
 
+import mainBackgroundBlur from './images/start-page/main-background-blur.png'
+import mainBackground from './images/start-page/main-background.png'
+import hoverBackground1  from "./images/start-page/hover-background-1.png"
+import hoverBackground1Blur  from "./images/start-page/hover-background-1-blur.png"
+import hoverBackground2  from "./images/start-page/hover-background-2.png"
+import hoverBackground2Blur  from "./images/start-page/hover-background-2-blur.png"
+import hoverBackground3  from "./images/start-page/hover-background-3.png"
+import hoverBackground3Blur  from "./images/start-page/hover-background-3-blur.png"
+
 function App() {
 
     const mainBackgroundRef = useRef()
@@ -126,12 +135,12 @@ function App() {
                 <div className='app background-wrapper'>
                     {
                         imageLoadingState.mainBackground
-                            ? <img src="/images/start-page/main-background.png"
+                            ? <img src={mainBackground}
                                    alt="mb"
                                    ref={mainBackgroundRef}
                                    className={appearAnimationClass}
                             />
-                            : <img src="/images/start-page/main-background-blur.png"
+                            : <img src={mainBackgroundBlur}
                                    alt="mbb"
                                    ref={mainBackgroundRef}
                                    className={appearAnimationClass}
@@ -141,11 +150,11 @@ function App() {
                     <div ref={hoveredBackgroundsRef}>
                         {
                             imageLoadingState.hoveredBackground1
-                                ? <img src="/images/start-page/hover-background-1.png"
+                                ? <img src={hoverBackground1}
                                        alt="hover-background-1"
                                        className={displayNone}
                                 />
-                                : <img src="/images/start-page/hover-background-1-blur.png"
+                                : <img src={hoverBackground1Blur}
                                        alt="hover-background-1"
                                        className={displayNone}
                                        onLoad={() => loadImageHandler('hoveredBackground1')}
@@ -153,11 +162,11 @@ function App() {
                         }
                         {
                             imageLoadingState.hoveredBackground2
-                                ? <img src="/images/start-page/hover-background-2.png"
+                                ? <img src={hoverBackground2}
                                        alt="hover-background-2"
                                        className={displayNone}
                                 />
-                                : <img src="/images/start-page/hover-background-2-blur.png"
+                                : <img src={hoverBackground2Blur}
                                        alt="hover-background-2"
                                        className={displayNone}
                                        onLoad={() => loadImageHandler('hoveredBackground2')}
@@ -165,11 +174,11 @@ function App() {
                         }
                         {
                             imageLoadingState.hoveredBackground3
-                                ? <img src="/images/start-page/hover-background-3.png"
+                                ? <img src={hoverBackground3}
                                        alt="hover-background-3"
                                        className={displayNone}
                                 />
-                                : <img src="/images/start-page/hover-background-3-blur.png"
+                                : <img src={hoverBackground3Blur}
                                        alt="hover-background-3"
                                        className={displayNone}
                                        onLoad={() => loadImageHandler('hoveredBackground3')}

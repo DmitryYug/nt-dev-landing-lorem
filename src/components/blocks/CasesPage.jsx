@@ -4,6 +4,8 @@ import {NavLink, useParams} from "react-router-dom";
 import {CaseModal} from "../elements/CaseModal";
 import {portfolioCards, profileCases} from "../../data/content";
 
+import arrowBackWhite from '../../images/portfolio-block/cases-page/arrow-back-white.png'
+
 
 export const CasesPage = () => {
 
@@ -47,8 +49,8 @@ export const CasesPage = () => {
         <div className={`modal-wrapper ${showModal ? 'faded' : ''}`}>
             <div className='cases-header'>
                 <div className='app-content-container'>
-                    <NavLink to='/'>
-                        <img src="/images/portfolio-block/cases-page/arrow-back-white.png"
+                    <NavLink to='/nt-dev-landing-lorem'>
+                        <img src={arrowBackWhite}
                              alt="arrow-back-white"
                         />
                     </NavLink>

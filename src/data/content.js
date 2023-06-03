@@ -1,16 +1,60 @@
+import startPageCircle from '../images/start-page/circle.png'
+import startPageEllipse from '../images/start-page/ellipse.png'
+import startPageRectangle from '../images/start-page/rectangle.png'
+import startPageEllipseSmall from '../images/start-page/ellipse-s.png'
+
+import aboutCardsRound from '../images/about-block/cards/round.png'
+import aboutCardsStraight from '../images/about-block/cards/straight.png'
+import aboutCardsDigital from '../images/about-block/cards/digital-card/img.png'
+
+import workFlowRoundedCenter from '../images/workflow-block/rounded-center.png'
+import workFlowLeft from '../images/workflow-block/left.png'
+import workFlowRoundedLeft from '../images/workflow-block/rounded-left.png'
+import workFlowEllipseLeft from '../images/workflow-block/ellipse-left.png'
+import workFlowRoundedRectangleCenter from '../images/workflow-block/rounded-rectangle-center.png'
+
+import portfolioAutomationCircle from '../images/portfolio-block/cases-page/cards/automation-card/circle.png'
+import portfolioAutomationEllipse from '../images/portfolio-block/cases-page/cards/automation-card/ellipse.png'
+import portfolioIntegrationCircle from '../images/portfolio-block/cases-page/cards/integration-card/circle.png'
+import portfolioIntegrationRectangle from '../images/portfolio-block/cases-page/cards/integration-card/rectangle.png'
+import portfolioPreProjCircle from '../images/portfolio-block/cases-page/cards/pre-project-card/circle.png'
+import portfolioPreProjRectangle from '../images/portfolio-block/cases-page/cards/pre-project-card/rectangle.png'
+import portfolioServicesCircle from '../images/portfolio-block/cases-page/cards/online-services-card/circle.png'
+import portfolioServicesRectangle from '../images/portfolio-block/cases-page/cards/online-services-card/rectangle.png'
+
+import casesAutomationScheme1 from '../images/case-modal/schemes/automation/1.png'
+import casesAutomationScheme2 from '../images/case-modal/schemes/automation/2.png'
+import casesAutomationScheme3 from '../images/case-modal/schemes/automation/3.png'
+import casesAutomationScheme4 from '../images/case-modal/schemes/automation/4.png'
+import casesAutomationScheme5 from '../images/case-modal/schemes/automation/5.png'
+import casesAutomationScheme6 from '../images/case-modal/schemes/automation/6.png'
+import casesAutomationScheme7 from '../images/case-modal/schemes/automation/7.png'
+import casesAutomationScheme8 from '../images/case-modal/schemes/automation/8.png'
+import casesAutomationScheme9 from '../images/case-modal/schemes/automation/9.png'
+import casesAutomationScheme10 from '../images/case-modal/schemes/automation/10.png'
+import casesAutomationScheme11 from '../images/case-modal/schemes/automation/11.png'
+import casesIntegrationScheme1 from '../images/case-modal/schemes/integration/1.png'
+import casesServicesScheme1 from '../images/case-modal/schemes/online-services/1.png'
+import casesAutomationBckgrEllipse from '../images/portfolio-block/cases-page/cards/automation-card/background-1/ellipse.png'
+import casesAutomationBckgr11Ellipse from '../images/portfolio-block/cases-page/cards/automation-card/background-11/ellipse.png'
+import casesAutomationBckgr11Rectangle from '../images/portfolio-block/cases-page/cards/automation-card/background-11/rectangle.png'
+import casesAutomationBckgr11Circle from '../images/portfolio-block/cases-page/cards/automation-card/background-11/circle.png'
+import casesAutomationBckgrRectangle from '../images/portfolio-block/cases-page/cards/automation-card/background-1/rectangle.png'
+
+
 export const startPageIcons = [
     {
-        path: ['/images/start-page/circle.png', '/images/start-page/ellipse.png'],
+        path: [startPageCircle, startPageEllipse],
         text: 'Lorem ipsum dolor sit amet',
         iconId: 'hover-icon-first',
     },
     {
-        path: ['/images/start-page/ellipse-s.png', '/images/start-page/circle.png', '/images/start-page/ellipse.png'],
+        path: [startPageEllipseSmall, startPageCircle, startPageEllipse],
         text: 'Lorem ipsum dolor',
         iconId: 'hover-icon-second',
     },
     {
-        path: ['/images/start-page/rectangle.png', '/images/start-page/circle.png'],
+        path: [startPageRectangle, startPageCircle],
         text: 'Lorem ipsum dolor sit amet, consectetur.',
         iconId: 'hover-icon-third',
     },
@@ -19,22 +63,25 @@ export const startPageIcons = [
 
 export const aboutBlockCards = [
     {
-        imagePath: [`/images/about-block/cards/round.png`, `/images/about-block/cards/straight.png`],
+        imagePath: [aboutCardsRound, aboutCardsStraight],
         title: 'Consectetur',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur ducimus qui quibusdam sapiente ut.',
         cardId: 'import-card'
     },
     {
-        imagePath: [`/images/about-block/cards/digital-card/img.png`, `/images/about-block/cards/digital-card/img.png`, `/images/about-block/cards/digital-card/img.png`, `/images/about-block/cards/digital-card/img.png`],
+        imagePath: [aboutCardsDigital, aboutCardsDigital, aboutCardsDigital, aboutCardsDigital],
         title: 'Ipsum dolor',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda, atque dicta, dolor facilis in laborum maiores, quia quibusdam quis ratione tempore temporibus velit veniam voluptate! Commodi cumque debitis dolorem!',
         cardId: 'digital-card'
     },
     {
-        imagePath: [`/images/about-block/cards/straight.png`, `/images/about-block/cards/round.png`, `/images/about-block/cards/straight.png`,
-            `/images/about-block/cards/round.png`, `/images/about-block/cards/straight.png`, `/images/about-block/cards/straight.png`, `/images/about-block/cards/round.png`, `/images/about-block/cards/straight.png`, `/images/about-block/cards/round.png`,
-            `/images/about-block/cards/straight.png`, `/images/about-block/cards/round.png`, `/images/about-block/cards/straight.png`, `/images/about-block/cards/round.png`, `/images/about-block/cards/round.png`, `/images/about-block/cards/round.png`,
-            `/images/about-block/cards/round.png`],
+        imagePath: [
+            aboutCardsStraight, aboutCardsRound, aboutCardsStraight,
+            aboutCardsRound, aboutCardsStraight, aboutCardsStraight,
+            aboutCardsRound, aboutCardsStraight, aboutCardsRound,
+            aboutCardsStraight, aboutCardsRound, aboutCardsStraight,
+            aboutCardsRound, aboutCardsRound, aboutCardsRound, aboutCardsRound
+        ],
         title: 'Adipisci assumenda',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut ducimus labore libero maxime neque non omnis optio ut velit.',
         cardId: 'develop-card'
@@ -47,19 +94,19 @@ export const workFlowCards = [
         result: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut ducimus labore libero maxime ',
         descriptionList: [
             {
-                icon: '/images/workflow-block/rounded-center.png',
+                icon: workFlowRoundedCenter,
                 text: 'Lorem ipsum dolor sit amet.'
             },
             {
-                icon: '/images/workflow-block/left.png',
+                icon: workFlowLeft,
                 text: 'Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.'
             },
             {
-                icon: '/images/workflow-block/rounded-left.png',
+                icon: workFlowRoundedLeft,
                 text: 'Lorem ipsum dolor sit amet.'
             },
             {
-                icon: '/images/workflow-block/ellipse-left.png',
+                icon: workFlowEllipseLeft,
                 text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, nam!'
             }
         ]
@@ -69,23 +116,26 @@ export const workFlowCards = [
         result: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem hic inventore iure odit perferendis voluptatum!',
         descriptionList: [
             {
-                icon: '/images/workflow-block/rounded-center.png',
+                icon: workFlowRoundedCenter,
                 text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
             },
-            {icon: '/images/workflow-block/left.png', text: 'Lorem ipsum dolor sit amet.'},
-            {icon: '/images/workflow-block/rounded-left.png', text: 'Lorem ipsum dolor sit amet.'},
+            {icon: workFlowLeft, text: 'Lorem ipsum dolor sit amet.'},
+            {icon: workFlowRoundedLeft, text: 'Lorem ipsum dolor sit amet.'},
         ]
     },
     {
         title: 'Lorem ipsum dolor sit amet.',
         result: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam assumenda consectetur distinctio ducimus, esse eveniet excepturi facere id libero modi quae quia quisquam, quos saepe sequi, suscipit tenetur voluptatum.',
         descriptionList: [
-            {icon: '/images/workflow-block/rounded-center.png', text: 'Tenetur voluptatum'},
-            {icon: '/images/workflow-block/left.png', text: 'Lorem ipsum dolor'},
-            {icon: '/images/workflow-block/rounded-left.png', text: 'Lorem ipsum dolor sit amet, consectetur adipisicing.'},
-            {icon: '/images/workflow-block/ellipse-left.png', text: 'Lorem ipsum dolor '},
+            {icon: workFlowRoundedCenter, text: 'Tenetur voluptatum'},
+            {icon: workFlowLeft, text: 'Lorem ipsum dolor'},
             {
-                icon: '/images/workflow-block/rounded-rectangle-center.png',
+                icon: workFlowRoundedLeft,
+                text: 'Lorem ipsum dolor sit amet, consectetur adipisicing.'
+            },
+            {icon: workFlowEllipseLeft, text: 'Lorem ipsum dolor '},
+            {
+                icon: workFlowRoundedRectangleCenter,
                 text: 'Lorem ipsum dolor sit amet'
             }
         ]
@@ -95,11 +145,11 @@ export const workFlowCards = [
         result: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         descriptionList: [
             {
-                icon: '/images/workflow-block/rounded-center.png',
+                icon: workFlowRoundedCenter,
                 text: 'Amet aperiam assumenda consectetur distinctio ducimus, esse eveniet excepturi facere id libero modi quae quia.'
             },
             {
-                icon: '/images/workflow-block/left.png',
+                icon: workFlowLeft,
                 text: 'Veniam voluptate! Commodi cumque debitis dolorem!'
             },
         ]
@@ -109,24 +159,27 @@ export const workFlowCards = [
         result: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
         descriptionList: [
             {
-                icon: '/images/workflow-block/rounded-center.png',
+                icon: workFlowRoundedCenter,
                 text: 'Tempore temporibus velit veniam voluptate! Commodi cumque debitis dolorem!'
             },
-            {icon: '/images/workflow-block/left.png', text: 'Veniam voluptate veniam voluptate'},
-            {icon: '/images/workflow-block/rounded-left.png', text: 'Tenetur voluptatum veniam'},
+            {icon: workFlowLeft, text: 'Veniam voluptate veniam voluptate'},
+            {icon: workFlowRoundedLeft, text: 'Tenetur voluptatum veniam'},
         ]
     },
     {
         title: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
         result: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam assumenda consectetur distinctio ducimus, esse eveniet excepturi facere id libero modi quae quia quisquam, quos saepe sequi, suscipit tenetur voluptatum.',
         descriptionList: [
-            {icon: '/images/workflow-block/rounded-center.png', text: 'Lorem ipsum dolor sit amet, consectetur adipisicing.'},
             {
-                icon: '/images/workflow-block/left.png',
+                icon: workFlowRoundedCenter,
                 text: 'Lorem ipsum dolor sit amet, consectetur adipisicing.'
             },
             {
-                icon: '/images/workflow-block/rounded-left.png',
+                icon: workFlowLeft,
+                text: 'Lorem ipsum dolor sit amet, consectetur adipisicing.'
+            },
+            {
+                icon: workFlowRoundedLeft,
                 text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex optio reiciendis.'
             },
         ]
@@ -137,25 +190,25 @@ export const portfolioCards = [
         cardId: 'automation',
         title: ' Dolore ex optio reiciendis',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam assumenda consectetur distinctio ducimus, esse eveniet excepturi facere id libero modi quae quia quisquam, quos saepe sequi, suscipit tenetur voluptatum.',
-        backgroundIcons: [`/images/portfolio-block/cases-page/cards/automation-card/circle.png`, `/images/portfolio-block/cases-page/cards/automation-card/ellipse.png`],
+        backgroundIcons: [portfolioAutomationCircle, portfolioAutomationEllipse],
     },
     {
         cardId: 'integration',
         title: 'Tenetur voluptatum',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex optio reiciendis.',
-        backgroundIcons: [`/images/portfolio-block/cases-page/cards/integration-card/circle.png`, `/images/portfolio-block/cases-page/cards/integration-card/rectangle.png`],
+        backgroundIcons: [portfolioIntegrationCircle, portfolioIntegrationRectangle],
     },
     {
         cardId: 'pre-project',
         title: 'Veniam voluptate',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda, atque dicta, dolor facilis in laborum maiores, quia quibusdam quis ratione tempore temporibus velit veniam voluptate!',
-        backgroundIcons: [`/images/portfolio-block/cases-page/cards/pre-project-card/circle.png`, `/images/portfolio-block/cases-page/cards/pre-project-card/rectangle.png`],
+        backgroundIcons: [portfolioPreProjCircle, portfolioPreProjRectangle],
     },
     {
         cardId: 'online-services',
         title: 'Commodi cumque',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda, atque dicta, dolor facilis in laborum maiores, quia quibusdam quis ratione tempore temporibus ',
-        backgroundIcons: [`/images/portfolio-block/cases-page/cards/online-services-card/circle.png`, `/images/portfolio-block/cases-page/cards/online-services-card/rectangle.png`],
+        backgroundIcons: [portfolioServicesCircle, portfolioServicesRectangle],
     }
 
 ]
@@ -177,8 +230,8 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: '/images/case-modal/schemes/automation/1.png',
-            parentBackground: [`/images/portfolio-block/cases-page/cards/automation-card/background-1/ellipse.png`, `/images/portfolio-block/cases-page/cards/automation-card/background-1/rectangle.png`]
+            scheme: casesAutomationScheme1,
+            parentBackground: [casesAutomationBckgrEllipse, casesAutomationBckgrRectangle]
         },
         {
             id: 'card2',
@@ -195,7 +248,7 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: '/images/case-modal/schemes/automation/2.png',
+            scheme: casesAutomationScheme2,
             parentBackground: []
         },
         {
@@ -213,7 +266,7 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: '/images/case-modal/schemes/automation/3.png',
+            scheme: casesAutomationScheme3,
             parentBackground: []
         },
         {
@@ -231,7 +284,7 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: '/images/case-modal/schemes/automation/4.png',
+            scheme: casesAutomationScheme4,
             parentBackground: []
         },
         {
@@ -249,7 +302,7 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: '/images/case-modal/schemes/automation/4.png',
+            scheme: casesAutomationScheme5,
             parentBackground: []
         },
         {
@@ -267,7 +320,7 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: '/images/case-modal/schemes/automation/6.png',
+            scheme: casesAutomationScheme6,
             parentBackground: []
         },
         {
@@ -285,7 +338,7 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: '/images/case-modal/schemes/automation/7.png',
+            scheme: casesAutomationScheme7,
             parentBackground: [`/images/portfolio-block/cases-page/cards/automation-card/background-7/ellipse.png`, `/images/portfolio-block/cases-page/cards/automation-card/background-7/rectangle.png`, `/images/portfolio-block/cases-page/cards/automation-card/background-7/circle.png`]
         },
         {
@@ -303,7 +356,7 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: '/images/case-modal/schemes/automation/8.png',
+            scheme: casesAutomationScheme8,
             parentBackground: []
         },
         {
@@ -322,10 +375,11 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: '/images/case-modal/schemes/automation/9.png',
+            scheme: casesAutomationScheme9,
             parentBackground: []
         },
         {
+            id: 'card10',
             header: 'Lorem ipsum dolor sit amet, consectetur.',
             tags: ['Quia recusandae voluptatum', 'Lorem ipsum dolor sit amet, consectetur.', 'Commodi cumque'],
             headerChip: 'Debitis dolorem!',
@@ -339,7 +393,7 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: '/images/case-modal/schemes/automation/10.png',
+            scheme: casesAutomationScheme10,
             parentBackground: []
         },
         {
@@ -357,8 +411,8 @@ export const profileCases = {
                 'Lorem ipsum dolor sit amet, consectetur. Commodi cumque debitis dolorem!',
                 'Lorem ipsum dolor sit amet, consectetur.'
             ],
-            scheme: '/images/case-modal/schemes/automation/11.png',
-            parentBackground: [`/images/portfolio-block/cases-page/cards/automation-card/background-11/ellipse.png`, `/images/portfolio-block/cases-page/cards/automation-card/background-11/rectangle.png`, `/images/portfolio-block/cases-page/cards/automation-card/background-11/circle.png`]
+            scheme: casesAutomationScheme11,
+            parentBackground: [casesAutomationBckgr11Ellipse, casesAutomationBckgr11Rectangle, casesAutomationBckgr11Circle]
         }
     ],
     integration: [
@@ -370,10 +424,10 @@ export const profileCases = {
             stack: ['Java,', 'Spring,', 'PostgreSQL,', 'Apache Kafka'],
             status: ['Lorem ipsum dolor sit amet'],
             caseDescription:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea enim reprehenderit. Animi architecto aspernatur beatae debitis, deserunt eius ex expedita, illo iste iure nihil pariatur repellendus veniam. Enim id itaque maxime perferendis quidem rem!",
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea enim reprehenderit. Animi architecto aspernatur beatae debitis, deserunt eius ex expedita, illo iste iure nihil pariatur repellendus veniam. Enim id itaque maxime perferendis quidem rem!",
             features: [],
-            scheme: '/images/case-modal/schemes/integration/1.png',
-            parentBackground: [`/images/portfolio-block/cases-page/cards/automation-card/background-1/ellipse.png`, `/images/portfolio-block/cases-page/cards/automation-card/background-1/rectangle.png`]
+            scheme: casesIntegrationScheme1,
+            parentBackground: [casesAutomationBckgrEllipse, casesAutomationBckgrRectangle]
         }
     ],
     'pre-project': [
@@ -393,7 +447,7 @@ export const profileCases = {
                 'Consectetur adipisicing elit. Nam, optio'
             ],
             scheme: '',
-            parentBackground: [`/images/portfolio-block/cases-page/cards/automation-card/background-1/ellipse.png`, `/images/portfolio-block/cases-page/cards/automation-card/background-1/rectangle.png`]
+            parentBackground: [casesAutomationBckgrEllipse, casesAutomationBckgrRectangle]
         }
     ],
     'online-services': [
@@ -406,8 +460,8 @@ export const profileCases = {
             status: ['Lorem ipsum dolor sit amet.', 'Lorem ipsum dolor sit amet, consectetur'],
             caseDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus illo laborum laudantium recusandae repudiandae? Accusamus inventore mollitia perferendis reprehenderit.',
             features: ['Lorem ipsum dolor sit amet', 'Eaque, tempora.', 'Enim id itaque maxime perferendis quidem rem', 'Quidem rem'],
-            scheme: '/images/case-modal/schemes/online-services/1.png',
-            parentBackground: [`/images/portfolio-block/cases-page/cards/automation-card/background-1/ellipse.png`, `/images/portfolio-block/cases-page/cards/automation-card/background-1/rectangle.png`]
+            scheme: casesServicesScheme1,
+            parentBackground: [casesAutomationBckgrEllipse, casesAutomationBckgrRectangle]
         }
     ]
 }

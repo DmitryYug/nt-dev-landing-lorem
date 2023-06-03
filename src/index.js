@@ -9,7 +9,7 @@ import './index.css';
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/nt-dev-landing-lorem",
         element: <App/>,
     },
     {
