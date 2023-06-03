@@ -1,15 +1,42 @@
 {
   "files": {
-    "main.css": "/nt-dev-landing-lorem/static/css/main.f053089a.css",
-    "main.js": "/nt-dev-landing-lorem/static/js/main.f08a5f80.js",
+    "main.css": "/nt-dev-landing-lorem/static/css/main.7a736f15.css",
+    "main.js": "/nt-dev-landing-lorem/static/js/main.b215db90.js",
+    "static/media/main-background.png": "/nt-dev-landing-lorem/static/media/main-background.dc191bd58beba61109f2.png",
+    "static/media/hover-background-2.png": "/nt-dev-landing-lorem/static/media/hover-background-2.b41af05a2ded5992f27e.png",
+    "static/media/hover-background-1.png": "/nt-dev-landing-lorem/static/media/hover-background-1.6870ae4a305bdcebee31.png",
     "static/media/background.png": "/nt-dev-landing-lorem/static/media/background.f8af88043155a6a1f387.png",
+    "static/media/hover-background-3.png": "/nt-dev-landing-lorem/static/media/hover-background-3.aa8eed7730568c397b58.png",
+    "static/media/1.png": "/nt-dev-landing-lorem/static/media/1.0e82a428b9a15d54021d.png",
+    "static/media/4.png": "/nt-dev-landing-lorem/static/media/4.81d7c63bb1674767cfc1.png",
+    "static/media/circle.png": "/nt-dev-landing-lorem/static/media/circle.ef869fdefcdef3d5a4db.png",
+    "static/media/7.png": "/nt-dev-landing-lorem/static/media/7.859641b47b26b0852fc6.png",
     "static/media/background-blur.png": "/nt-dev-landing-lorem/static/media/background-blur.812a79d37b535e4d5aee.png",
+    "static/media/ellipse.png": "/nt-dev-landing-lorem/static/media/ellipse.8c6ba71331ba29bb7974.png",
+    "static/media/3.png": "/nt-dev-landing-lorem/static/media/3.826390c8ded253bea261.png",
+    "static/media/5.png": "/nt-dev-landing-lorem/static/media/5.3bdec7429e9710d2a346.png",
+    "static/media/10.png": "/nt-dev-landing-lorem/static/media/10.f4a64811b32b47b554e5.png",
+    "static/media/main-background-blur.png": "/nt-dev-landing-lorem/static/media/main-background-blur.0b3c670fbc24b42f8f93.png",
+    "static/media/hover-background-1-blur.png": "/nt-dev-landing-lorem/static/media/hover-background-1-blur.ef63e6850e5e81e21254.png",
+    "static/media/6.png": "/nt-dev-landing-lorem/static/media/6.732274bab3b621178556.png",
+    "static/media/2.png": "/nt-dev-landing-lorem/static/media/2.ec25007061fa874e0f16.png",
+    "static/media/hover-background-2-blur.png": "/nt-dev-landing-lorem/static/media/hover-background-2-blur.b8eb0bd00a1d051bb4b2.png",
+    "static/media/hover-background-3-blur.png": "/nt-dev-landing-lorem/static/media/hover-background-3-blur.1cbacfb4953ed1088a36.png",
+    "static/media/round.png": "/nt-dev-landing-lorem/static/media/round.27b95b77d7bb33f74737.png",
+    "static/media/rectangle.png": "/nt-dev-landing-lorem/static/media/rectangle.9461ab8092f3e5fc7246.png",
+    "static/media/11.png": "/nt-dev-landing-lorem/static/media/11.bcfc56ddbd1e93a26c51.png",
+    "static/media/9.png": "/nt-dev-landing-lorem/static/media/9.2ff55790362ea290dba5.png",
+    "static/media/img.png": "/nt-dev-landing-lorem/static/media/img.71865687a781c613122e.png",
+    "static/media/8.png": "/nt-dev-landing-lorem/static/media/8.8618705b4a254580a28f.png",
+    "static/media/error-sending.png": "/nt-dev-landing-lorem/static/media/error-sending.46f51e191a00a4b83fad.png",
+    "static/media/straight.png": "/nt-dev-landing-lorem/static/media/straight.435215f7d73b51a102bb.png",
+    "static/media/success-sending.png": "/nt-dev-landing-lorem/static/media/success-sending.e7f5430c80920ae6a0b8.png",
     "index.html": "/nt-dev-landing-lorem/index.html",
-    "main.f053089a.css.map": "/nt-dev-landing-lorem/static/css/main.f053089a.css.map",
-    "main.f08a5f80.js.map": "/nt-dev-landing-lorem/static/js/main.f08a5f80.js.map"
+    "main.7a736f15.css.map": "/nt-dev-landing-lorem/static/css/main.7a736f15.css.map",
+    "main.b215db90.js.map": "/nt-dev-landing-lorem/static/js/main.b215db90.js.map"
   },
   "entrypoints": [
-    "static/css/main.f053089a.css",
-    "static/js/main.f08a5f80.js"
+    "static/css/main.7a736f15.css",
+    "static/js/main.b215db90.js"
   ]
 }
