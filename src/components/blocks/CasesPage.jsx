@@ -49,7 +49,7 @@ export const CasesPage = () => {
         <div className={`modal-wrapper ${showModal ? 'faded' : ''}`}>
             <div className='cases-header'>
                 <div className='app-content-container'>
-                    <NavLink to='/'>
+                    <NavLink to='/nt-dev-landing-lorem'>
                         <img src={arrowBackWhite}
                              alt="arrow-back-white"
                         />

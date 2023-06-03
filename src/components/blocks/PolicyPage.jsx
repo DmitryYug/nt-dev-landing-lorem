@@ -16,7 +16,7 @@ export const PolicyPage = () => {
         <div className='policy'>
             <div className='header'>
                 <div className='img-container'>
-                    <NavLink to='/'>
+                    <NavLink to='/nt-dev-landing-lorem'>
                         <img src={arrowBackBlue}
                              alt="arrow-back"
                         />
