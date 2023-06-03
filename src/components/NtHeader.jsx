@@ -13,7 +13,6 @@ export const NtHeader = () => {
                 <h1 onClick={scrollToTop}>
                     Company logo
                 </h1>
-
                 {/*<div onClick={scrollToTop} className='main-logo'>*/}
                     {/*<img src="/images/main-logo.png"*/}
                     {/*     alt="main-logo"*/}

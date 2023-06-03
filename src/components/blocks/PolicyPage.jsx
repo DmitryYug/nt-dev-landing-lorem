@@ -3,6 +3,8 @@ import {NavLink} from "react-router-dom";
 import {policyData} from "../../data/content";
 import {animateScroll as scroll} from 'react-scroll';
 
+import arrowBackBlue from '../../images/case-modal/arrow-back-blue.png'
+
 
 export const PolicyPage = () => {
 
@@ -15,7 +17,7 @@ export const PolicyPage = () => {
             <div className='header'>
                 <div className='img-container'>
                     <NavLink to='/'>
-                        <img src="./images/case-modal/arrow-back-blue.png"
+                        <img src={arrowBackBlue}
                              alt="arrow-back"
                         />
                     </NavLink>

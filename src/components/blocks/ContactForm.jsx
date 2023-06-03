@@ -3,6 +3,8 @@ import InputMask from 'react-input-mask';
 import axios from "axios";
 import config from '../../config.json'
 import {useForm} from "react-hook-form";
+import successImg from "../../images/contact-form/success-sending.png"
+import errorImg from "../../images/contact-form/error-sending.png"
 
 
 export const ContactForm = () => {
@@ -77,14 +79,14 @@ export const ContactForm = () => {
 
     const successSendMessage = () => (
         <div className={`sending-status animate__animated animate__zoomIn animate__faster ${sendingStatus}`}>
-            <img src="./images/contact-form/success-sending.png" alt="success-sending"/>
+            <img src={successImg} alt="success-sending"/>
             <span>Lorem ipsum dolor sit amet.</span>
         </div>
     )
     const errorSendMessage = () => (
         <div>
             <div className={`sending-status animate__animated animate__zoomIn animate__faster ${sendingStatus}`}>
-                <img src="./images/contact-form/error-sending.png" alt="error-sending"/>
+                <img src={errorImg} alt="error-sending"/>
                 <span>Error</span>
             </div>
         </div>
