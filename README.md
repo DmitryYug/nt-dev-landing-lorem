@@ -16,5 +16,5 @@
 https://dmitryyug.github.io/nt-dev-landing-lorem
 
 ### Repository
-https://github.com/DmitryYug/nt-dev-landing-lorem/blob/main/README.md
+https://github.com/DmitryYug/nt-dev-landing-lorem/
 
