@@ -5,9 +5,17 @@ import config from '../../config.json'
 import {useForm} from "react-hook-form";
 import successImg from "../../images/contact-form/success-sending.png"
 import errorImg from "../../images/contact-form/error-sending.png"
+import loader from '../../images/loader.svg'
+
+import {initializeApp} from "firebase/app";
+import {firebaseConfig} from "../../firebaseConfig";
+import {addDoc, collection, getFirestore} from "firebase/firestore";
 
 
 export const ContactForm = () => {
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app)
 
     //Watch viewport
     let backgroundWrapperRefContacts = useRef()
@@ -27,6 +35,7 @@ export const ContactForm = () => {
     axios.defaults.baseURL = config.apiPath;
 
     useEffect(() => {
+
         const observer = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
                 //Element show
@@ -45,32 +54,24 @@ export const ContactForm = () => {
     }, []);
 
     useEffect(() => {
-        if (formState.isSubmitSuccessful) {
-            reset();
-            reset({phone: ''})
-        }
-    }, [formState, reset])
-
-    useEffect(() => {
         if (values.name || values.company || values.email || values.message) {
             setSendingStatus(null)
         }
         //eslint-disable-next-line
     }, [watchAllFields])
 
-    const contactFormSubmit = (data) => {
+    const contactFormSubmit = async (data) => {
         setLoading(true)
-        axios.post('/feedback/', data)
-            .then(() => {
-                setSendingStatus('success')
-            })
-            .catch((err) => {
-                setSendingStatus('error')
-                console.log(err.message)
-            })
-            .finally(() => {
-                setLoading(false)
-            })
+        try {
+            await addDoc(collection(db, '/feedbackForm'), data);
+            setSendingStatus('success')
+            reset();
+            reset({phone: ''})
+        } catch (e) {
+            setSendingStatus('error')
+        } finally {
+            setLoading(false)
+        }
     }
 
     const errorMessage = () => (
@@ -241,8 +242,16 @@ export const ContactForm = () => {
                                 <button className='btn-black'
                                         id='sent'
                                         disabled={loading}
+                                        style={{width: '105px'}}
                                 >
-                                    Lorem ipsum.
+                                    {
+                                        loading
+                                            ? <img src={loader}
+                                                   alt="loading"
+                                                   style={{height: '15px'}}
+                                                />
+                                            : 'Lorem ipsum'
+                                    }
                                 </button>
                                 {sendingStatus === 'success' ? successSendMessage() : errorSendMessage()}
                             </div>

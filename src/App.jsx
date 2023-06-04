@@ -24,6 +24,7 @@ import hoverBackground2Blur from "./images/start-page/hover-background-2-blur.pn
 import hoverBackground3 from "./images/start-page/hover-background-3.png"
 import hoverBackground3Blur from "./images/start-page/hover-background-3-blur.png"
 
+
 function App() {
 
     const mainBackgroundRef = useRef()

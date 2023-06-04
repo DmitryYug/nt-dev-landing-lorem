@@ -8,18 +8,5 @@ export function AppRouter() {
             <Route path={'/nt-dev-landing-lorem'} element={<App/>}/>
             <Route path={'/:projectId'} element={<CasesPage/>}/>
         </Routes>
-        // <Routes>
-        //     {Object.values(routes).map(({path, element}) => (
-        //         <Route
-        //             key={path}
-        //             path={path}
-        //             element={(
-        //                 <div className="page-wrapper">
-        //                     {element}
-        //                 </div>
-        //             )}
-        //         />
-        //     ))}
-        // </Routes>
     );
 }
