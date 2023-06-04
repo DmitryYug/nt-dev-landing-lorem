@@ -1,21 +1,20 @@
-# ntdev-site
-Сборка проекта:
-[Create React App](https://github.com/facebook/create-react-app).
+# Landing website for IT company
 
-## Актуальные изменения проекта в ветке
-### `develop`
+## Stack
+-  react
+-  less
+-  firebase
 
+## Features
+- adaptive
+- routing
+- animations
+- progressive image loading
+- scroll navigation
 
-## Команды
-#### Зависимости:
-### `npm install`
-#### Запустить локально на [http://localhost:3000](http://localhost:3000):
-### `npm start`
-#### Билд
-### `npm run build`
-#### Конфиг базового пути запросов к серверу
-### `scr/config.json`
-#### Контент можно изменять в 
-### `scr/data/content.js`
+### Deployment
+https://dmitryyug.github.io/nt-dev-landing-lorem
 
+### Repository
+https://github.com/DmitryYug/nt-dev-landing-lorem/blob/main/README.md
 
