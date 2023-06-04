@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nt-dev-landing-lorem/static/css/main.7a736f15.css",
-    "main.js": "/nt-dev-landing-lorem/static/js/main.dca0e7dd.js",
+    "main.js": "/nt-dev-landing-lorem/static/js/main.bd550a31.js",
     "static/media/main-background.png": "/nt-dev-landing-lorem/static/media/main-background.dc191bd58beba61109f2.png",
     "static/media/hover-background-2.png": "/nt-dev-landing-lorem/static/media/hover-background-2.b41af05a2ded5992f27e.png",
     "static/media/hover-background-1.png": "/nt-dev-landing-lorem/static/media/hover-background-1.6870ae4a305bdcebee31.png",
@@ -32,11 +32,12 @@
     "static/media/straight.png": "/nt-dev-landing-lorem/static/media/straight.435215f7d73b51a102bb.png",
     "static/media/success-sending.png": "/nt-dev-landing-lorem/static/media/success-sending.e7f5430c80920ae6a0b8.png",
     "index.html": "/nt-dev-landing-lorem/index.html",
+    "static/media/loader.svg": "/nt-dev-landing-lorem/static/media/loader.13ea82832f4f4c9e69a9bba13d1e0fff.svg",
     "main.7a736f15.css.map": "/nt-dev-landing-lorem/static/css/main.7a736f15.css.map",
-    "main.dca0e7dd.js.map": "/nt-dev-landing-lorem/static/js/main.dca0e7dd.js.map"
+    "main.bd550a31.js.map": "/nt-dev-landing-lorem/static/js/main.bd550a31.js.map"
   },
   "entrypoints": [
     "static/css/main.7a736f15.css",
-    "static/js/main.dca0e7dd.js"
+    "static/js/main.bd550a31.js"
   ]
 }
